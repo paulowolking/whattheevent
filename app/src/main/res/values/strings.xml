@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatTheEvent</string>
+    <string name="event_detail">Detalhes do evento</string>
+    <string name="event_list">Lista de eventos</string>
+    <string name="no_connection">Sem conexão com a internet</string>
+    <string name="occurrence_error">Ocorreu um erro inesperado</string>
+    <string name="check_in_success">CheckIn efetuado com sucesso</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="confirm">Confirmar</string>
+    <string name="make_check_in">Fazer checkin</string>
+</resources>
