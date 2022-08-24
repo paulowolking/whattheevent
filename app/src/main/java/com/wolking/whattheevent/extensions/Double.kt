@@ -1,8 +1,9 @@
 package com.wolking.whattheevent.extensions
 
-import java.text.DecimalFormat
+import java.text.NumberFormat
+import java.util.*
 
 fun Double.toMoneyReal(): String {
-    val formatter = DecimalFormat("###,###,##0,00")
-    return "R$ ${formatter.format(this)}"
+    val numberFormat = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))
+    return numberFormat.format(this)
 }
